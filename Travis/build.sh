@@ -1,6 +1,8 @@
 #! /bin/sh
 /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -createManualActivationFile -logfile
 
+mv Unity_v2018.3.8f1.alf Unity_v2018.x.ulf
+
 /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -manualLicenseFile Unity_v2018.x.ulf -logfile
 
 
