@@ -9,7 +9,7 @@ mv Unity_v2018.3.8f1.alf Unity_v2018.x.ulf
 project="Hexed"
 
 echo "Attempting to build $project for OS X"
-/Applications/Unity/Unity.app/Contents/MacOS/Unity \
+xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' /Applications/Unity/Unity.app/Contents/MacOS/Unity \
   -batchmode \
   -nographics \
   -silent-crashes \
