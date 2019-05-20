@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash -x
 /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -createManualActivationFile -logfile
 
 mv Unity_v2018.3.8f1.alf Unity_v2018.x.ulf
