@@ -23,6 +23,7 @@ install:
 
 # run the script for unit tests and builds
 script:
+ - chmod a+x ./Travis/build.sh
  - sudo ./Travis/build.sh
 
 # environment variables used in bash scripts
